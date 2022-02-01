@@ -16,7 +16,11 @@
 export default {
     data() {
         return {
-            projects:[]
+            projects:[
+        { id: 1, title: 'Calculator',  details: 'lorem' },
+        { id: 2, title: 'Point On Sale',  details:'lorem' },
+        { id: 3, title: 'Portfolio', details: 'lorem' }
+            ]
         }
     },
     mounted(){

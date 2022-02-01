@@ -12,17 +12,17 @@
 <style>
 .contact-section{
     height: 48vw; 
-    background: #292933;
+    /* background: #292933; */
     border: 10px solid white; 
 }
     #contact-form {
     border: 10px solid white; 
-    padding-top: 160px;
+    padding-top: 100px;
     padding-bottom: 70px;
-    padding-right: 70px;
-    padding-left: 70px;
+    /* padding-right: 70px;
+    padding-left: 70px; */
     height: 48vw; 
-    background: #292933;   
+    /* background: #292933;    */
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -31,7 +31,7 @@
     .form-submit {
 	border: none;
 	outline: none;
-	/* background-color: #292933; */
+	background-color:  #2c3e50;
 	border-radius: 40px;
 	padding: 2%;
 	margin-bottom: 20px;
@@ -40,6 +40,7 @@
 }
 .form-submit {
 	cursor: pointer;
+	color: white;
 }
 .form-submit:hover {
 	box-shadow: 2px 6px 10px rgb(15 15 20 / 50%);
