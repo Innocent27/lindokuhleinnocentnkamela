@@ -1,5 +1,5 @@
 <template>
-<div class="skills-container">
+<div class="skills-containerz">
     <div class="skills-box">
         <div class="skills-title">
             <div class="skills-img">
@@ -49,7 +49,7 @@
 	padding: 1rem;
 	position: relative;
 }
-.skills-container {
+.skills-containerz {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	justify-content: center;
@@ -107,13 +107,13 @@
 	margin-top: 0.5rem;
 }
 @media screen and (max-width: 990px) {
-	.skills-container {
+	.skills-containerz {
 		grid-template-columns: repeat(2, 1fr);
 		padding: 2rem 50px;
 	}
 }
 @media screen and (max-width: 650px) {
-	.skills-container {
+	.skills-containerz {
 		grid-template-columns: 2fr;
 		padding: 2rem 50px;
 	}

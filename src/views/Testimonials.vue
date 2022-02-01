@@ -1,5 +1,5 @@
 <template>
-        <div class="active">
+     <div class="active">
             <!-- <div class="img"><img src="assets/images/alex.jpg" alt=""></div> -->
             <h2>Alex Sexwale</h2>
             <p>"Lindokuhle Nkamela is dedicated like tackling all 
@@ -40,4 +40,5 @@
                 the best that he can be.
             </p>                    
         </div>
+
 </template>

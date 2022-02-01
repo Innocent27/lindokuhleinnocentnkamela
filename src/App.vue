@@ -21,7 +21,7 @@
 
 <!--footer starts from here-->
 <footer class="footer">
-<div class="container bottom_border">
+<div class="containers bottom_border">
 <div class="row">
 <div class=" col-sm-4 col-md col-sm-4  col-12 col">
 <h5 class="headin5_amrc col_white_amrc pt2">Follow me</h5>
@@ -36,7 +36,7 @@
 </div>
 
 
-<div class="container">
+<div class="containers">
 <ul class="foote_bottom_ul_amrc">
 <li><a href="/">Home</a></li>
 <li><a href="/About">About</a></li>
