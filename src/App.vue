@@ -51,13 +51,13 @@
         </div>
         <div class="containers">
             <ul class="foote_bottom_ul_amrc">
-              <li><a href="/">Home</a></li>
-              <li><a href="/About">About</a></li>
-              <li><a href="/Resume">Resume</a></li>
-              <li><a href="/Skills">Skills</a></li>
-              <li><a href="/Projects">Projects</a></li>
-              <li><a href="/Testimonials">Testimonials</a></li>
-              <li><a href="/Contact">Contacts</a></li>
+              <li><router-link to="/" >Home</router-link></li>
+              <li><router-link to="/about">About</router-link></li>
+              <li><router-link to="/resume" >Resume</router-link></li>
+              <li><router-link to="/skills" >Skills</router-link></li>
+              <li><router-link to="/projects" >Projects</router-link></li>
+              <li><router-link to="/Testimonials" >Testimonial</router-link></li>
+              <li><router-link to="/contact" >Contact</router-link></li>
             </ul>
 <!--foote_bottom_ul_ends here-->
             <p class="text-center">Copyright @2021 | Designed by Lindokuhle</p>
