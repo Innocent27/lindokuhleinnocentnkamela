@@ -1,6 +1,6 @@
 <template>
     <div class="contact-section">
-        <form action="https://formspree.io/f/mvodyoee" method="POST" id="contact-form">
+        <form action="https://formspree.io/f/mvodyoee" target="_blank"  method="POST" id="contact-form">
             <input class="form-input" type="text" name="name" placeholder="Name" required/>
             <input class="form-input" type="email" name="_replyto" placeholder="Email" required/>
             <textarea class="form-input" name="message" placeholder="Message" required></textarea>
