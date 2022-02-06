@@ -83,7 +83,7 @@
       <p class="text-center">Copyright @2021 | Designed by Lindokuhle</p>
       <ul class="social_footer_ul">
         <li>
-          <a href="http://webenlance.com"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.linkedin.com/in/lindokuhle-nkamela-b779a8126/"><i class="fab fa-linkedin"></i></a>
         </li>
         <li>
           <a href="mailto:lindokuhlenkamela@gmail.com"
@@ -96,7 +96,7 @@
           ></a>
         </li>
         <li>
-          <a href="https://codepen.io/innocent27/pen/XWgyGbB"
+          <a href="https://codepen.io/innocent27/pen/JjyzGjR"
             ><i class="fab fa-codepen"></i
           ></a>
         </li>
@@ -122,68 +122,13 @@
   font-size: 2em;
   font-weight: 300;
 }
-/* .links > a {
-	color: #9ab;
-	padding: .75em;
-	text-align: center;
-	text-decoration: nosne;
-	transition: all .5s;
-} */
-/* tobe deleted */
 a {
   color: white;
   padding: 0.75em;
   text-align: center;
   text-decoration: none;
   transition: all 0.5s;
-} /*
-.links > a:hover {
-	background: #ffffff06;
-	color: #adf;
-}
-.links > .line {
-	background: #68a;
-	height: 1px;
-	pointer-events: none;
-} */
-
-/* The Magic
-#header {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-}
-.links {
-	display: grid;
-	grid-template-columns: repeat(var(--items), 1fr);
-	position: relative;
-}
-.links > .line {
-	opacity: 0;
-	transition: all .5s;
-	position: absolute;
-	bottom: 0;
-	left: var(--left, calc(100% / var(--items) * (var(--index) - 1)));
-	width: var(--width, calc(100% / var(--items)));
-	--index: 0;
-}
-.links > a:hover ~ .line {
-	opacity: 1;
-}
-
-.links > a:nth-of-type(1):hover ~ .line { --index: 1; }
-.links > a:nth-of-type(2):hover ~ .line { --index: 2; }
-.links > a:nth-of-type(3):hover ~ .line { --index: 3; }
-.links > a:nth-of-type(4):hover ~ .line { --index: 4; }
-.links > a:nth-of-type(5):hover ~ .line { --index: 5; }
-.links > a:nth-of-type(6):hover ~ .line { --index: 6; }
-.links > a:nth-of-type(7):hover ~ .line { --index: 7; }
-.links > a:nth-of-type(8):hover ~ .line { --index: 8; }
-.links > a:nth-of-type(9):hover ~ .line { --index: 9; }
-.links > a:nth-of-type(10):hover ~ .line { --index: 10; }
-.links > a:last-of-type:hover ~ .line { --index: var(--items); } */
-/* end menu */
+} 
 .col_white_amrc {
   color: #fff;
 }

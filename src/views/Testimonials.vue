@@ -51,3 +51,8 @@
   </div>
 </div>
 </template>
+<style>
+.card{
+background: black;
+}
+</style>
