@@ -34,8 +34,8 @@
   transition: all 0.3s linear;
   animation: changeBG 5s linear infinite;
 }
-p,.card-title{
-  color: green;
+.card-title, .card-text{
+  color: white;
 }
 
 @keyframes changeBG {
