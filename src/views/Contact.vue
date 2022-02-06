@@ -7,7 +7,6 @@
             <button class="form-submit" type="submit">Send</button>
         </form>
     </div>
-    
 </template>
 <style>
 .contact-section{

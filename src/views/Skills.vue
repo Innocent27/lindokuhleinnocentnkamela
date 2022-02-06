@@ -85,13 +85,14 @@
 	width: 120px;
 }
 .skills-img {
-	width: 90px;
-	/* height: 90px; */
+	/* width: 90px;
+	height: 90px; */
 	position: relative;
 	border-radius: 40%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	object-fit: cover;
 }
 .skills-img:after {
 	content: "";

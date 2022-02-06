@@ -30,11 +30,12 @@
 }
 #img{
   /* border-radius: 50%; */
+  object-fit: cover;
   transition: all 0.3s linear;
   animation: changeBG 5s linear infinite;
 }
 p,.card-title{
-  color: white;
+  color: green;
 }
 
 @keyframes changeBG {
