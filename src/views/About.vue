@@ -35,7 +35,7 @@
   animation: changeBG 5s linear infinite;
 }
 .card-title, .card-text{
-  color: white;
+  color: black;
 }
 
 @keyframes changeBG {

@@ -50,7 +50,7 @@
   </div>
 </div>
 </template>
-<style>
+<style scoped>
 #text-p,#title-h{
 color: black;
 }

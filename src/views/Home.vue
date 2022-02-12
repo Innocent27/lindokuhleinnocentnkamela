@@ -16,7 +16,7 @@ export default {
 }
 </script> 
 
-<style>
+<style scoped>
 #more{
  text-decoration: none;
  display: inline-block;

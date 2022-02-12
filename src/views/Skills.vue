@@ -42,7 +42,7 @@
         </div>
 </div>      
 </template>
-<style>
+<style scoped>
 .skills-header{
 	text-align: center;
 	color: #fff;

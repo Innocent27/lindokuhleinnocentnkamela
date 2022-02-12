@@ -135,7 +135,7 @@ and Solar power plants performance reports</div>
   </div>
      </div>
 </template>
-<style>
+<style scoped>
     
 .TimerSection{
   margin-top:20px;

@@ -3,8 +3,7 @@ import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Resume from '../views/Resume.vue'
 import Skills from '../views/Skills.vue'
-import Projects from '../views/projects/Projects.vue'
-import ProjectsDetails from '../views/projects/Projectsdetails.vue' 
+import Projects from '../views/Projects.vue'
 import Testimonials from '../views/Testimonials.vue'
 import Contact from '../views/Contact.vue'
 
@@ -39,12 +38,7 @@ const routes = [
     name: 'Projects',
     component: Projects
   },
-  {
-    path: '/projects/:id',
-    name: 'ProjectsDetails',
-    component: ProjectsDetails,
-    props: true
-  },
+  
   {
     path: '/testimonials',
     name: 'Testimonials',
