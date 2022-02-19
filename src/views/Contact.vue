@@ -43,19 +43,15 @@ export default {
 }
 </script>
 <style scoped>
-.contact-section{
+/* .contact-section{
     height: 48vw; 
-    /* background: #292933; */
     border: 10px solid white; 
 }
     #contact-form {
     border: 10px solid white; 
     padding-top: 100px;
     padding-bottom: 70px;
-    /* padding-right: 70px;
-    padding-left: 70px; */
     height: 48vw; 
-    /* background: #292933;    */
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -68,7 +64,6 @@ export default {
 	border-radius: 40px;
 	padding: 2%;
 	margin-bottom: 20px;
-	/* color: white; */
 	box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
 }
 .form-input{
@@ -92,5 +87,5 @@ export default {
 	.form-submit {
 		padding: 5%;
 	}
-}
+} */
 </style>

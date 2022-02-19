@@ -18,8 +18,8 @@
   </div>
 </div>
 </template>
-<style>
-#about{
+<style scoped>
+/* #about{
   border: 10px solid white; 
   padding-top: 160px;
   padding-bottom: 70px;
@@ -27,18 +27,18 @@
   padding-left: 70px;
   height: 48vw; 
   background: #292933;
-}
-#img{
+} */
+/* #img{ */
   /* border-radius: 50%; */
-  object-fit: cover;
+  /* object-fit: cover;
   transition: all 0.3s linear;
-  animation: changeBG 5s linear infinite;
-}
-.card-title, .card-text{
+  animation: changeBG 5s linear infinite; */
+/* } */
+/* .card-title, .card-text{
   color: black;
-}
+} */
 
-@keyframes changeBG {
+/* @keyframes changeBG {
   0%,
   100% {
     background-image: url(../assets/images/about.jpeg);
@@ -52,7 +52,7 @@
       background-image: url(../assets/images/mist.jpg);
       border-radius: 60% 40% 38% 62% / 57% 74% 26% 43%;
     }
-}
+} */
 </style>
 
 

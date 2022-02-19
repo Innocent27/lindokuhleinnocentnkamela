@@ -137,7 +137,7 @@ and Solar power plants performance reports</div>
 </template>
 <style scoped>
     
-.TimerSection{
+/* .TimerSection{
   margin-top:20px;
   position:relative;
   
@@ -295,7 +295,7 @@ text-shadow:1px 1px 1px rgba(0,0,0,0.3);
   background-color:#444950;
   text-align:right;
   font-style:italic;
-}
+} */
 
 
 </style>

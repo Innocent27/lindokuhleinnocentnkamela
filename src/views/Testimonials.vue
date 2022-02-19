@@ -35,7 +35,7 @@ export default {
 </script>
 
 <style scoped>
-    .project h2{
+    /* .project h2{
         background: white;
         padding: 20px;
         border-radius: 10px;
@@ -47,10 +47,10 @@ export default {
     img{
       height: 300px;
       width:300px ;
-    }
+    } */
     </style>
 <style scoped>
-#text-p,#title-h{
+/* #text-p,#title-h{
 color: black;
 }
 #img-card{
@@ -63,5 +63,5 @@ width: 200px;
   padding-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
-}
+} */
 </style>

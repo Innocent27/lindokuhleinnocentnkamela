@@ -10,7 +10,8 @@
                 <h5 class="card-title">{{project.title}}</h5>
                 <p class="card-text">{{project.desc}}</p>
                 <p class="card-text">{{project.stack}}</p>
-                <button class="button type3">View Site</button>
+                <a href="/About" id="more">View Site</a>
+                <button class="button type3"></button>
                 <button class="button type1">View Github</button>
               </div>
           </div>
@@ -40,7 +41,7 @@ export default {
 </script>
 
 <style scoped>
-    .project h2{
+    /* .project h2{
         background: white;
         padding: 20px;
         border-radius: 10px;
@@ -52,5 +53,5 @@ export default {
     img{
       height: 300px;
       width:300px ;
-    }
+    } */
     </style>

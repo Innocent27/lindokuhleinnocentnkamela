@@ -43,7 +43,7 @@
 </div>      
 </template>
 <style scoped>
-.skills-header{
+/* .skills-header{
 	text-align: center;
 	color: #fff;
 	padding: 1rem;
@@ -83,10 +83,8 @@
 }
 .skills-icons {
 	width: 120px;
-}
-.skills-img {
-	/* width: 90px;
-	height: 90px; */
+} */
+/* .skills-img {
 	position: relative;
 	border-radius: 40%;
 	display: flex;
@@ -118,5 +116,5 @@
 		grid-template-columns: 2fr;
 		padding: 2rem 50px;
 	}
-}
+} */
 </style>

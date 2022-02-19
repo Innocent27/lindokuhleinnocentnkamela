@@ -1,5 +1,5 @@
 <template>
-    <div id="nav" class="sticky-top">
+    <!-- <div id="nav" class="sticky-top">
   <div class="container-fluid">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
@@ -32,7 +32,7 @@
   </div>
 </nav>
 </div>
-</div>
+</div> -->
 <router-view/>
 </template>
 
@@ -43,27 +43,25 @@ export default {
 </script>
 
 <style>
- #app {
+ /* #app {
 font-family: Avenir, Helvetica, Arial, sans-serif;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 text-align: center;
 color: #2c3e50;
 
-}
+} */
 
-#nav {
+/* #nav {
 padding: 30px;
-/* margin-left:200px ; */
 width: 100%;
 height: 100%;
 align-content: center;
 align-items: center;
 padding: 20px;
+} */
 
-}
-
-#nav a {
+/* #nav a {
 font-weight: bold;
 color: #2c3e50;
 text-decoration: none;
@@ -71,12 +69,12 @@ padding: 10px;
 border-radius: 4px;
 margin-left: 40px;
 
-}
+} */
 
-#nav a.router-link-exact-active {
+/* #nav a.router-link-exact-active {
 color: white;
 background: crimson;
 align-items: center;
-}
+} */
  
 </style>
