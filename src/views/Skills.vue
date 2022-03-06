@@ -1,120 +1,96 @@
 <template>
-<div class="skills-containerz">
-    <div class="skills-box">
-        <div class="skills-title">
-            <div class="skills-img">
-                <img src="../assets/images/html5.png" alt="" class="skills-icons">
+    <section id="skills" class="skills">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
             </div>
-            <h3>HTML 5</h3>
-        </div>
-    </div>
-        <div class="skills-box">
-            <div class="skills-title">
-                <div class="skills-img">
-                    <img src="../assets/images/CSS.3.svg" alt="" class="skills-icons">
-                </div>
-                <h3>CSS3</h3>
-            </div> 
-        </div>
-        <div class="skills-box">
-            <div class="skills-title">
-                <div class="skills-img">
-                    <img src="../assets/images/js.jpg" alt="" class="skills-icons">
-                </div>
-                <h3>JAVASCRIPT</h3>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
             </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">PHP <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Photoshop <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
         </div>
-        <div class="skills-box">
-            <div class="skills-title">
-                <div class="skills-img">
-                    <img src="../assets/images/databse.png" alt="" class="skills-icons" style="border-radius: 50%;">
-                </div>
-                <h3>MySQL</h3>
-            </div> 
-        </div>
-        <div class="skills-box">
-            <div class="skills-title">
-                <div class="skills-img">
-                    <img src="../assets/images/bootstrap.png" alt="" class="skills-icons">
-                </div>
-                <h3>Bootstrap 4</h3>
-            </div> 
-        </div>
-</div>      
+
+      </div>
+    </section>
 </template>
 <style scoped>
-/* .skills-header{
-	text-align: center;
-	color: #fff;
-	padding: 1rem;
-	position: relative;
+    .skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
 }
-.skills-containerz {
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	grid-gap: 1rem;
-	padding: 1rem 100px;
-	font-size: 1.2rem;
-	height: 48vw; 
-    background: #292933;    
-    border: 10px solid white; 
-    padding-top: 160px;
-    padding-bottom: 70px;
-    padding-right: 70px;
-    padding-left: 70px;
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #222222;
 }
-.skills-box {
-	padding: 1rem;
-	cursor: pointer;
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
 }
-.skills-box:hover .skills-img {
-	transform: translateY(-20px);
+.skills .progress-bar-wrap {
+  background: #f3f3f3;
 }
-.skills-title {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 0.5rem;
-	margin-bottom: 0.5rem;
-	position: relative;
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #34b7a7;
 }
-.skills-icons {
-	width: 120px;
-} */
-/* .skills-img {
-	position: relative;
-	border-radius: 40%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	object-fit: cover;
-}
-.skills-img:after {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 50%;
-	height: 90px;
-	border-radius: 50%;
-}
-.skills-title h3 {
-	color: white;
-	margin-top: 0.5rem;
-}
-@media screen and (max-width: 990px) {
-	.skills-containerz {
-		grid-template-columns: repeat(2, 1fr);
-		padding: 2rem 50px;
-	}
-}
-@media screen and (max-width: 650px) {
-	.skills-containerz {
-		grid-template-columns: 2fr;
-		padding: 2rem 50px;
-	}
-} */
 </style>
