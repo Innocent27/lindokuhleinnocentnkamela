@@ -15,6 +15,18 @@
     </div>
   </div>
 </div>
+<!-- footer -->
+<footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Lindokuhle</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- add linkedIn link -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer>
 </template>
 <script>
 export default {
@@ -50,11 +62,11 @@ export default {
     } */
     </style>
 <style scoped>
-/* #text-p,#title-h{
+ #text-p,#title-h{
 color: black;
 }
 #img-card{
-object-fit: cover;
+ object-fit: cover;
 height: 200px;
 width: 200px;
 }
@@ -63,5 +75,21 @@ width: 200px;
   padding-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
-} */
+} 
+
+/* footer */
+#footer {
+  background: #e9e8e6;
+  padding: 30px 0;
+  color: #222222;
+  font-size: 14px;
+  text-align: center;
+}
+#footer .credits {
+  padding-top: 5px;
+  font-size: 13px;
+}
+#footer .credits a {
+  color: #34b7a7;
+}
 </style>

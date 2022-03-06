@@ -63,6 +63,18 @@
 
       </div>
     </section>
+    <!-- footer -->
+    <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Lindokuhle</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- add linkedIn link -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer>
 </template>
 <style scoped>
     .skills .progress {
@@ -92,5 +104,20 @@
   height: 10px;
   transition: 0.9s;
   background-color: #34b7a7;
+}
+/* footer */
+#footer {
+  background: #e9e8e6;
+  padding: 30px 0;
+  color: #222222;
+  font-size: 14px;
+  text-align: center;
+}
+#footer .credits {
+  padding-top: 5px;
+  font-size: 13px;
+}
+#footer .credits a {
+  color: #34b7a7;
 }
 </style>
