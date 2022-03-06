@@ -1,5 +1,5 @@
 <template>
-    <header id="header" class="fixed-top">
+  <header id="header" class="fixed-top">
     <div class="container-fluid d-flex justify-content-between align-items-center">
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
@@ -15,6 +15,7 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
+      <!-- social links -->
       <div class="header-social-links">
         <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -31,10 +32,10 @@ export default {
 </script>
 
 <style>
-    body {
+    /* body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-}
+} */
 a {
   color: #34b7a7;
   text-decoration: none;

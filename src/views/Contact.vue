@@ -1,4 +1,5 @@
 <template>
+<main id="main">
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
@@ -59,7 +60,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button @click="handleSubmit" type="submit">Send Message</button></div>
             </form>
 
           </div>
@@ -68,6 +69,7 @@
 
       </div>
     </section>
+    </main>
     <!-- footer -->
     <footer id="footer">
     <div class="container">

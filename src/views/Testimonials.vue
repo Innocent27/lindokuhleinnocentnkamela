@@ -1,20 +1,28 @@
 <template>
-<h1>Testimonials</h1>
-<div class="card-container">
-  <div class="row row-cols-1 row-cols-md-4 g-2">
-      <div class="card"  v-for="testimonial of testimonials" :key="testimonial.id" > 
-        <div class="col">
-          <div class="card h-100">
-                <img :src="testimonial.img" class="card-img-top" alt="project.img_alt">
-              <div class="card-body">
-                <h5 class="card-title">{{testimonial.title}}</h5>
-                <p class="card-text">{{testimonial.desc}}</p>
+<main id="main">
+<section id="about" class="about">
+<div class="container" data-aos="fade-up">
+  <div class="section-title">
+      <h2>Testimonials</h2>
+  </div>
+    <div class="card-container">
+      <div class="row row-cols-1 row-cols-md-4 g-2">
+        <div class="card"  v-for="testimonial of testimonials" :key="testimonial.id" > 
+          <div class="col">
+              <div class="card h-100">
+                    <img :src="testimonial.img" class="card-img-top" alt="project.img_alt">
+                  <div class="card-body">
+                    <h5 class="card-title">{{testimonial.title}}</h5>
+                    <p class="card-text">{{testimonial.desc}}</p>
+                  </div>
               </div>
           </div>
         </div>
+      </div>
     </div>
   </div>
-</div>
+</section>
+</main>
 <!-- footer -->
 <footer id="footer">
     <div class="container">

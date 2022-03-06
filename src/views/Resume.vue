@@ -1,4 +1,5 @@
 <template>
+<main id="main">
    <section id="resume" class="resume">
       <div class="container" data-aos="fade-up">
 
@@ -9,64 +10,92 @@
 
         <div class="row">
           <div class="col-lg-6">
-            <h3 class="resume-title">Sumary</h3>
+            <h3 class="resume-title">Summary</h3>
             <div class="resume-item pb-0">
-              <h4>Alice Barkley</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+              <h4>Skills</h4>
               <p>
               <ul>
-                <li>Portland par 127,Orlando, FL</li>
-                <li>(123) 456-7891</li>
-                <li>alice.barkley@example.com</li>
+                <li>Design and sizing of solar photovoltaic systems</li>
+                <li>Supervisor Control And Data Aquisition (SCADA)</li>
+                <li>MS Suite (Excel, Word, PowerPoint)</li>
+                <li>HTML/CSS/Javascript</li>
+                <li>Bootstrap/VueJs/NodeJs/MySQL/MongoDB</li>
+                <li>Computer literacy</li>
+                <li>Islamic religion teachings</li>
               </ul>
               </p>
             </div>
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
-              <h4>Master of Fine Arts &amp; Graphic Design</h4>
-              <h5>2015 - 2016</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+              <h4>Bachelor of Science in Applied Mathematics</h4>
+              <h5>2020 - 2021</h5>
+              <p><em>Stellenbosch University-incomplete</em></p>
+              <h5>Majors</h5>
+              <ul>
+                <li>Applied Mathematics</li>
+                <li>Mathematics</li>
+                <li>Probability and Statistics</li>
+                <li>Computer Sciences</li>
+                <li>Economics</li>
+              </ul>
             </div>
             <div class="resume-item">
-              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-              <h5>2010 - 2014</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+              <h4>National Diploma: Mechanical(Mechatronics) Engineeering</h4>
+              <h5>2014 - 2018</h5>
+              <p><em>Cape Peninsula University of Technology</em></p>
+               <h5>Majors</h5>
+              <ul>
+                <li>Process Control</li>
+                <li>Industrial Networking</li>
+                <li>Engineering Professional Studies</li>
+                <li>Mechatronics Engineering Design</li>
+                <li>Computer Integrated Manufacturing</li>
+              </ul>
             </div>
           </div>
           <div class="col-lg-6">
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
-              <h4>Senior graphic design specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY </em></p>
-              <p>
-              <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-              </ul>
-              </p>
+              <h4>Lifechoices academy- Javascript fullstack developer student</h4>
+              <h5>2021 - Present</h5>
+              <p><em>Majors</em></p>
+               <ul>
+                  <li>HTML/CSS/Javascript</li>
+                  <li>Bootstrap/VueJs</li>
+                  <li>NodeJs/MySQL/MongoDB</li>
+               </ul>
             </div>
             <div class="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
-              <p>
-              <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-              </ul>
-              </p>
+                <h4>Globeleq South African Management Services - Control systems operator</h4>
+                <h5>2018 - 2019</h5>
+                <p><em>Duties</em></p>
+              <!-- <p> -->
+                <ul>
+                  <li>Remote monitoring of renewable energy (2x50MW Solar PV and 140MW wind power plants).</li>
+                  <li>Scheduling of preventative and scheduled maintenance</li>
+                  <li>Communicating faults, inefficiencies to onsite technicians</li>
+                  <li>Data analysis collected from SPPA T3000 server using MS Excel.</li>
+                  <li>Building Human Machine Interface (HMI) in WinCC for PV plants automation</li>
+                  <li>Monitoring the company IT/network infrastructure and do analysis for any anomalies</li>
+                  <li>Completing compliance reports (NERSA, SBO, IPP Office, Daily reports) for powerplants</li>
+                  <li>Remote switching of medium, low voltage using Siemens SPPA T3000 SCADA</li>
+                </ul>
+            </div>
+            <div class="resume-item">
+              <h4>MilliCare - Machine Technician</h4>
+              <h5>2017-2018</h5>
+              <p><em>Duties :</em></p>
+               <ul>
+                  <li>Vacuum pump replacement</li>
+                  <li>Maintenance of Vacuum motors</li>
+                  <li>Maintenance reports</li>
+               </ul>
             </div>
           </div>
         </div>
       </div>
     </section>
+</main>
     <!-- footer -->
     <footer id="footer">
     <div class="container">
