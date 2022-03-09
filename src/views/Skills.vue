@@ -70,7 +70,7 @@
       </div>
       <div class="credits">
         <!-- add linkedIn link -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://www.linkedin.com/in/lindokuhle-nkamela-b779a8126/">Lindokuhle Nkamela</a>
       </div>
     </div>
   </footer>

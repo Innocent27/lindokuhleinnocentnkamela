@@ -31,7 +31,7 @@
       </div>
       <div class="credits">
         <!-- add linkedIn link -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://www.linkedin.com/in/lindokuhle-nkamela-b779a8126/">Lindokuhle Nkamela</a>
       </div>
     </div>
   </footer>
@@ -48,7 +48,7 @@ export default {
     mounted(){
         fetch('https://nodejsexpressapilindo.herokuapp.com/testimonials')
         .then(res => res.json())
-        .then(data => {this.projects = data})
+        .then(data => {this.testimonials = data})
         .catch(err => console.log(err.message))
     }
 }

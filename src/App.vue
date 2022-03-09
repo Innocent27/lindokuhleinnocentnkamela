@@ -323,7 +323,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("./assets/images/hero-bg.jpg") top right;
+  background: url("./assets/images/green.webp") top right;
   background-size: cover;
 }
 #hero .container {

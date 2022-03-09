@@ -15,9 +15,8 @@
                 <h5 class="card-title">{{project.title}}</h5>
                 <p class="card-text">{{project.desc}}</p>
                 <p class="card-text">{{project.stack}}</p>
-                <a href="/About" id="more">View Site</a>
-                <button class="button type3"></button>
-                <button class="button type1">View Github</button>
+                <a :href="project.github" id="more">Github</a>
+                <a :href="project.live" id="more">Live</a>
               </div>
           </div>
         </div>
@@ -35,7 +34,7 @@
       </div>
       <div class="credits">
         <!-- add linkedIn link -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://www.linkedin.com/in/lindokuhle-nkamela-b779a8126/">Lindokuhle Nkamela</a>
       </div>
     </div>
   </footer>
