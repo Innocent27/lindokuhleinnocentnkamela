@@ -5,8 +5,6 @@
 
         <div class="section-title">
           <h2>Skills</h2>
-          <!--<p>Magnam dolores commodi suscipit</p> -->
-
         <div class="row skills-content">
           <div class="col-lg-6">
             <div class="progress">
