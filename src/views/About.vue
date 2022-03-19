@@ -49,10 +49,10 @@ analyst, strategic thinker. Proactive with a focus on solutions
         </div>
       </div>
       <div class="header-social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/Innocent27" class="twitter"><i class="bi bi-github"></i></a>
+        <a href="mailto:lindokuhlenkamela@gmail.com" class="facebook"><i class="bi bi-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/lindokuhle-nkamela-b779a8126/" class="instagram"><i class="bi bi-linkedin"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-itch-io"></i></a>
       </div>
     </section>
   </main><!-- End #main -->
