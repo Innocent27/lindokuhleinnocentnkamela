@@ -17,9 +17,9 @@
       </nav><!-- .navbar -->
       <!-- social links -->
       <div class="header-social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://github.com/Innocent27" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="mailto:lindokuhlenkamela@gmail.com" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/lindokuhle-nkamela-b779a8126/" class="instagram"><i class="bi bi-instagram"></i></a>
         <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
     </div>
@@ -36,6 +36,23 @@ export default {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 } */
+/*--------------------------------------------------------------
+# Header Social Links
+--------------------------------------------------------------*/
+.header-social-links {
+  padding-right: 15px;
+}
+.header-social-links a {
+  color: #6f6f6f;
+  padding-left: 6px;
+  display: inline-block;
+  line-height: 0px;
+  transition: 0.3s;
+  font-size: 16px;
+}
+.header-social-links a:hover {
+  color: #34b7a7;
+}
 a {
   color: #34b7a7;
   text-decoration: none;
