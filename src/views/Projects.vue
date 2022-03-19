@@ -15,8 +15,8 @@
                 <h5 class="card-title">{{project.title}}</h5>
                 <p class="card-text">{{project.desc}}</p>
                 <p class="card-text">{{project.stack}}</p>
-                <a :href="project.github" id="more">Github</a>
-                <a :href="project.live" id="more">Live</a>
+                <a type="button" class="btn btn-secondary" :href="project.github" id="more">Github</a>
+                <a type="button" class="btn btn-success" :href="project.live" id="more">Live</a>
               </div>
           </div>
         </div>
